@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- CSS Links -->
+    <link rel="stylesheet" href="/css/styles.css">
+    <!-- Javascript -->
+    <link rel="stylesheet" href="/js/script.js">
+
+    <title>Document</title>
+</head>
+<body>
+    <section class="zoom">
+        <img src="/images/mountain1.png" alt="" id="layer1">
+        <img src="/images/mountain2.png" alt="" id="layer2">
+        <img src="/images/text.png" alt="" id="text">
+    </section>
+    <section class="content">
+        <h1>Niraj Khatiwada</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas sint nobis enim dolores blanditiis cupiditate ducimus magnam, repellat, facere accusantium officia veritatis deserunt iusto dignissimos consequatur atque cumque velit animi sequi libero corporis laborum consectetur. Ex sed quo, exercitationem autem repellat inventore modi aut impedit nam deserunt itaque atque saepe amet temporibus molestiae sint non fuga tempore hic vero quisquam obcaecati consequuntur optio! Tempore in laborum consequuntur, porro cumque eum vitae magnam officiis corrupti soluta odio alias molestias voluptatem, aperiam, quod illum? Aliquid fugit voluptas rerum non sunt sapiente, minima voluptates labore vel! Cupiditate repellendus aut laboriosam mollitia. Inventore, soluta? Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum incidunt dolores voluptates ipsam, rem asperiores amet veniam laudantium iusto atque repellendus sint velit, facere provident. Sunt incidunt deserunt iure aspernatur? Excepturi, magnam? Quae dolorem eaque sint, obcaecati aspernatur neque. Quam soluta eaque, illo, numquam sed provident corporis suscipit nesciunt ipsum, enim maxime. Unde, magni ea molestiae velit, id, fugiat facilis sit deserunt officia ipsum repellat dicta odit perferendis nobis. Voluptatum est qui eius mollitia minima numquam, magni soluta tempora aut, temporibus aliquid ea. Voluptatum excepturi, quia perspiciatis ut sequi minima sint error possimus voluptas at, quibusdam neque libero nemo eligendi. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur dolorum expedita consequuntur nemo veritatis voluptatum, blanditiis voluptate eveniet doloremque enim earum culpa aliquam exercitationem inventore quae accusamus voluptas sit repellat debitis! Cumque similique nihil repellendus nobis iste, excepturi accusamus perspiciatis rerum sint provident laudantium ab quae, fuga reprehenderit eligendi repellat architecto molestiae officia maxime molestias temporibus harum quaerat dignissimos assumenda. Id quo sit possimus tempore praesentium minima. Dolor totam animi nihil soluta molestiae nulla rerum quaerat blanditiis iste sapiente iure mollitia unde labore quod repudiandae quae libero veniam repellat, sed velit modi quos culpa cupiditate pariatur. Esse sunt molestiae vel iure repudiandae eum aperiam. Eius saepe repellat, vel, velit facilis eum, nisi enim quaerat iste reiciendis tempora culpa harum autem magni ducimus provident. Debitis voluptates, cum aut officiis autem excepturi veritatis dicta ullam perferendis earum voluptatem at molestiae obcaecati, quaerat minima iste porro nobis neque odit! Reprehenderit a aperiam magnam, eius facilis quasi soluta fugiat incidunt deleniti, sapiente aliquid quaerat dignissimos fuga. Expedita hic mollitia veritatis provident assumenda, amet eos reiciendis, earum cumque minus, ipsam odit quisquam! Quaerat aliquam totam porro necessitatibus! Labore, sed sapiente? Libero aut odio aperiam unde nisi nam ipsa sapiente. Mollitia dolorum laborum quis facilis blanditiis.</p>
+    </section>
+    <script type="text/javascript">
+        var layer1 = document.getElementById('layer1')
+        scroll = window.pageYOffset;
+        document.addEventListener('scroll',
+         function(e)
+         {
+             var offset = window.pageYOffset;
+             scroll = offset;
+             layer1.style.width = (100 + scroll/5) +  '%';
+         });
+
+        var layer2 = document.getElementById('layer2')
+        scroll = window.pageYOffset;
+        document.addEventListener('scroll',
+         function(e)
+         {
+             var offset = window.pageYOffset;
+             scroll = offset;
+             layer2.style.width = (100 + scroll/5) +'%';
+             layer2.style.left =scroll/50 +  '%';
+         });
+
+        var text = document.getElementById('text')
+        scroll = window.pageYOffset;
+        document.addEventListener('scroll',
+         function(e)
+         {
+             var offset = window.pageYOffset;
+             scroll = offset;
+             layer2.style.width = (100 + scroll/5) +'%';
+             text.style.top = - scroll/9 +  '%';
+         });
+    </script>
+</body>
+</html>
