@@ -55,7 +55,7 @@ body{
     padding: 5rem;
     box-sizing: border-box;
     font-family: consolas;
-    background: grey;
+    background: #fcfefe;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -87,12 +87,25 @@ body{
     align-self: flex-end;
 }
 
-.social{
-    
-}
+
 
 #facebook , #instagram, #twitter{
     width: 2rem;
     height: auto;
     padding: 0.1rem;
+    transition: all 0.1s ease-in-out;
+}
+
+#instagram:hover, #twitter:hover{
+    transform: scale(1.5);
+    padding: 1rem;
+   
+}
+
+#instagram:active, #twitter:active{
+    transform: rotateZ(25deg);
+}
+
+#facebook:hover{
+    
 }
