@@ -6,20 +6,28 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- CSS Links -->
     <link rel="stylesheet" href="/css/styles.css">
-    <!-- Javascript -->
-    <link rel="stylesheet" href="/js/script.js">
+    <!-- Fon Awesome -->
+    <link rel="stylesheet" href="/fontawesome-free-5.12.0-web/css/all.css">
+
 
     <title>Document</title>
 </head>
 <body>
     <section class="zoom">
-        <img src="/images/mountain1.png" alt="" id="layer1">
+        <a href="#about-me" class="image-active"> <img src="/images/mountain1.png" alt="" id="layer1"></a>
         <img src="/images/mountain2.png" alt="" id="layer2">
         <img src="/images/New Project.png" alt="" id="text">
     </section>
     <section class="content">
-        <h1>Niraj Khatiwada</h1>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas sint nobis enim dolores blanditiis cupiditate ducimus magnam, repellat, facere accusantium officia veritatis deserunt iusto dignissimos consequatur atque cumque velit animi sequi libero corporis laborum consectetur. Ex sed quo, exercitationem autem repellat inventore modi aut impedit nam deserunt itaque atque saepe amet temporibus molestiae sint non fuga tempore hic vero quisquam obcaecati consequuntur optio! Tempore in laborum consequuntur, porro cumque eum vitae magnam officiis corrupti soluta odio alias molestias voluptatem, aperiam, quod illum? Aliquid fugit voluptas rerum non sunt sapiente, minima voluptates labore vel! Cupiditate repellendus aut laboriosam mollitia. Inventore, soluta? Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum incidunt dolores voluptates ipsam, rem asperiores amet veniam laudantium iusto atque repellendus sint velit, facere provident. Sunt incidunt deserunt iure aspernatur? Excepturi, magnam? Quae dolorem eaque sint, obcaecati aspernatur neque. Quam soluta eaque, illo, numquam sed provident corporis suscipit nesciunt ipsum, enim maxime. Unde, magni ea molestiae velit, id, fugiat facilis sit deserunt officia ipsum repellat dicta odit perferendis nobis. Voluptatum est qui eius mollitia minima .</p>
+        <div class="about-me" id="about-me">
+            <img src="/images/PicsArt_08-27-10.56.37.jpg" alt="img">
+        </div>
+        <div class="social-links">
+            <a href="#" class="social"><img src="/images/facebook.svg" alt="" id="facebook"></a>
+            <a href="https://www.instagram.com/_nirajkhatiwada/" class="social"><img src="/images/instagram.svg" alt="" id="instagram"></a>
+            <a href="https://twitter.com/_snorlex" class="social"><img src="/images/twitter.svg" alt="" id="twitter"></a>
+
+        </div>
     </section>
     <script type="text/javascript">
         var layer1 = document.getElementById('layer1')
@@ -51,7 +59,7 @@
              var offset = window.pageYOffset;
              scroll = offset;
              layer2.style.width = (100 + scroll/5) +'%';
-             text.style.top = - scroll/9 +  '%';
+             text.style.top = - scroll/12 +  '%';
          });
     </script>
 </body>
