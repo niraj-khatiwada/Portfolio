@@ -33,6 +33,7 @@ body{
     left: 40%;
     z-index: 1;
     transform: translateX(-50%);
+    
 }
 
 
@@ -49,6 +50,7 @@ body{
     right: 0;
     width: 100%;
     transform: translateY(50%);
+    
 }
 
 .content{
