@@ -135,8 +135,7 @@ body{
     }
     #instagram:hover, #twitter:hover, #facebook:hover{
         transform: scale(1.5);
-        margin:1rem 0 ;
-        
+        margin:1rem 0;
     }
     
 }
