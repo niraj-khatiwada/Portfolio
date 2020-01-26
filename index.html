@@ -8,28 +8,35 @@
     <link rel="stylesheet" href="/css/styles.css">
     <!-- Fon Awesome -->
     <link rel="stylesheet" href="/fontawesome-free-5.12.0-web/css/all.css">
-
+    <!-- JS -->
+    <script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars();
+    </script>
 
     <title>Document</title>
 </head>
 <body>
     <section class="zoom">
-        <a href="#about-me" class="image-active"> <img src="/images/mountain1.png" alt="" id="layer1"></a>
-        <img src="/images/mountain2.png" alt="" id="layer2">
-        <img src="/images/New Project.png" alt="" id="text">
+        <a href="#about-me" class="image-active"> <img src="/img/mountain1.png" alt="" id="layer1"></a>
+        <img src="/img/mountain2.png" alt="" id="layer2">
+        <img src="/img/New Project.png" alt="" id="text">
     </section>
     <section class="content">
-        <div class="about-me" id="about-me">
-            <img src="/images/PicsArt_08-27-10.56.37.jpg" alt="img">
+        <div class="block" data-fx="3">
+            <a class="block__title" data-img="img/profile.jpg"></a>
         </div>
-        <div class="social-links">
-            <a href="#" class="social"><img src="/images/facebook.svg" alt="" id="facebook"></a>
-            <a href="https://www.instagram.com/_nirajkhatiwada/" class="social"><img src="/images/instagram.svg" alt="" id="instagram"></a>
-            <a href="https://twitter.com/_snorlex" class="social"><img src="/images/twitter.svg" alt="" id="twitter"></a>
-
+        <div class="about-me" id="about-me">
+            <img class="front-profile" src="./img/Screenshot_2020-01-26 Person sleeping icon vector image on VectorStock.png" alt="">
         </div>
     </section>
-    <script src="/js/text/javascript.js">
-    </script>
+    <div class="social-links">
+        <a href="#" class="social"><img src="/img/facebook.svg" alt="" id="facebook"></a>
+        <a href="https://www.instagram.com/_nirajkhatiwada/" class="social"><img src="/img/instagram.svg" alt="" id="instagram"></a>
+        <a href="https://twitter.com/_snorlex" class="social"><img src="/img/twitter.svg" alt="" id="twitter"></a>
+    </div>
+    <script src="/js/text/javascript.js"></script>
+    <script src="js/text/charming.min.js"></script>
+    <script src="js/text/imagesloaded.pkgd.min.js"></script>
+    <script src="js/text/TweenMax.min.js"></script>
+    <script src="js/text/demo.js"></script>
 </body>
 </html>
