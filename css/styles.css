@@ -130,7 +130,7 @@ body{
 @media screen and (min-width: 768px){
     .social-links{
     flex-direction: column;
-    top: 84%;
+    top: 82%;
     left: 97%;
     }
     #instagram:hover, #twitter:hover, #facebook:hover{
@@ -166,3 +166,12 @@ body{
 }
 
 /* Profile Image Hover End*/
+/* 2020 */
+.year{
+    background: #222831;
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
