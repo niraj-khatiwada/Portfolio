@@ -27,5 +27,5 @@ document.addEventListener('scroll',
      var offset = window.pageYOffset;
      scroll = offset;
      layer2.style.width = (100 + scroll/5) +'%';
-     text.style.top = - scroll/13 +  '%';
+     text.style.top = - scroll/11 +  '%';
  });
