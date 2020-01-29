@@ -58,7 +58,7 @@ body{
 }
 
 .content{
-    padding: 3rem;
+    padding: 1rem 3rem;
     width: 100%;
     position: relative;
     box-sizing: border-box;
@@ -97,14 +97,9 @@ body{
 
 
 .social-links{
-    padding: 2rem;
-    flex-grow: 0;
     display: flex;
     flex-wrap: wrap-reverse;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    
+    justify-content: center;
     
 }
 
@@ -113,29 +108,23 @@ body{
 #facebook , #instagram, #twitter{
     width: 2rem;
     height: auto;
-    transition: all 0.1s ease-in-out;
+    transition: all 0.2s ease-in-out;
     margin: 0.3rem;
 }
 #instagram:hover, #twitter:hover, #facebook:hover{
-    transform: scale(1.5);
+    transform: scale(1.2) translateY(-5px);
     margin: 0 1rem ;
     
 }
 
 
 #instagram:active, #twitter:active, #faceboo:active{
-    transform: rotateZ(25deg);
+    transform: scale(0.3);
 }
  
 @media screen and (min-width: 768px){
-    .social-links{
-    flex-direction: column;
-    top: 82%;
-    left: 97%;
-    }
     #instagram:hover, #twitter:hover, #facebook:hover{
-        transform: scale(1.5);
-        margin:1rem 0;
+        margin:0 1rem;
     }
     
 }
@@ -172,6 +161,4 @@ body{
     color: white;
     font-family:'Courier New', Courier, monospace;
     text-align: center;
-    margin-top: 1rem;
-    margin-bottom: 0;
 }
