@@ -117,7 +117,7 @@ body{
     margin: 0.3rem;
 }
 #instagram:hover, #twitter:hover, #facebook:hover{
-    transform: scale(1.5);
+    transform: scale(1.2);
     margin: 0 1rem ;
     
 }
@@ -174,4 +174,56 @@ body{
     text-align: center;
     margin-top: 1rem;
     margin-bottom: 0;
+    position: relative;
+}
+
+.skills-cards{
+    
+    display: none;
+}
+.python{
+    width: 30vh;
+}
+.HTML_CSS_Javascript{
+    width: 23vh;
+}
+
+.Bootstrap{
+    width: 10vh;
+}
+
+.Bootstrap > img{
+    border-radius: 20%;
+}
+
+.mysql{
+    width: 10vh;
+}
+
+.mysql > img{
+    border-radius: 50%;
+}
+.skills{
+    width: 90%;
+    transition:all 0.2s ease-in-out; 
+    margin: 1rem;
+}
+.skills:hover{
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75); 
+}
+
+@media screen and (min-width: 1301px){
+    .skills-cards{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 3rem;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 100%;
+        
+    }
+    
 }
