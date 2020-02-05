@@ -104,6 +104,7 @@ body{
     justify-content: center;
     position: absolute;
     right: 1%;
+    bottom: 2rem;
     
 }
 
@@ -117,10 +118,7 @@ body{
 }
 #instagram:hover, #twitter:hover, #facebook:hover{
     transform: scale(1.2);
-<<<<<<< HEAD
-    margin: 0 1rem ;
-=======
->>>>>>> 72c19ddebc4711305a896831e0798f8a663cfc4d
+    margin: 1rem 0 ;
     
 }
 
@@ -134,7 +132,7 @@ body{
        display: flex;
        flex-direction: row;
        left: 0;
-       bottom: -18%;
+       bottom: -5%;
    }
    
     
@@ -174,7 +172,6 @@ body{
     font-family:'Courier New', Courier, monospace;
     text-align: center;
     margin-top: 1rem;
-<<<<<<< HEAD
     margin-bottom: 0;
     position: relative;
 }
@@ -184,14 +181,14 @@ body{
     display: none;
 }
 .python{
-    width: 30vh;
+    width: 25vh;
 }
 .HTML_CSS_Javascript{
-    width: 23vh;
+    width: 25vh;
 }
 
 .Bootstrap{
-    width: 10vh;
+    width: 8vh;
 }
 
 .Bootstrap > img{
@@ -199,7 +196,7 @@ body{
 }
 
 .mysql{
-    width: 10vh;
+    width: 8vh;
 }
 
 .mysql > img{
@@ -229,11 +226,3 @@ body{
     }
     
 }
-=======
-}
-@media screen and (max-width: 768px){
-    .year{
-    margin-top:4rem;
-}
-}
->>>>>>> 72c19ddebc4711305a896831e0798f8a663cfc4d
