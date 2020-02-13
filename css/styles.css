@@ -195,12 +195,13 @@ body{
     border-radius: 20%;
 }
 
-.mysql{
-    width: 8vh;
+.sql{
+    width: 12vh;
+    margin-left: 1rem;
 }
 
-.mysql > img{
-    border-radius: 50%;
+.sql > img{
+    border-radius: 1    0%;
 }
 .skills{
     width: 90%;
