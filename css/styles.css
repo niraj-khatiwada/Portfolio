@@ -229,3 +229,12 @@ body{
     }
     
 }
+
+@media screen and (max-width: 756px){
+   #text{
+       display: none;
+   }
+   #layer1, #layer2{
+       display: none;
+   }
+}
