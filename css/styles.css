@@ -232,7 +232,7 @@ body{
 
 @media screen and (max-width: 756px){
    #text{
-       display: none;
+       display: block;
    }
    #layer1, #layer2{
        display: none;
@@ -242,5 +242,6 @@ body{
        background-repeat: no-repeat;
        /* height: 20%; */
        height: 52vh;
+    
    }
 }
