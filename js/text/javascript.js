@@ -29,3 +29,4 @@ document.addEventListener('scroll',
      layer2.style.width = (100 + scroll/5) +'%';
      text.style.top = - scroll/11 +  '%';
  });
+

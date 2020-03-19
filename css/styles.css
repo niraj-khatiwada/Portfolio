@@ -104,7 +104,7 @@ body{
     justify-content: center;
     position: absolute;
     right: 1%;
-    bottom: 2rem;
+    bottom: 1rem;
     
 }
 
@@ -117,6 +117,18 @@ body{
     margin: 0.3rem;
     transform: scale(0.8);
    
+}
+
+#download{
+    font-size: 170%;
+    margin: 0.8rem auto auto 0.6rem;
+}
+#download:hover{
+    color: red;
+}
+
+#cv{
+    transform: translateX(-100px);
 }
 
 
@@ -216,6 +228,7 @@ body{
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75); 
 }
+
 
 @media screen and (min-width: 1301px){
     .skills-cards{
