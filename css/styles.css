@@ -115,12 +115,13 @@ body{
     height: auto;
     transition: all 0.2s ease-in-out;
     margin: 0.3rem;
+    transform: scale(0.8);
    
 }
 
 
 #instagram:hover, #twitter:hover, #facebook:hover{
-    transform: scale(1.1);
+    transform: scale(0.9);
     margin: 0.5rem 0;    
 }
 
@@ -144,7 +145,7 @@ body{
 /* Profile Image Hover */
 
 .block {
-    position: absolute;  
+    position: absolute;
 }
 
 
@@ -245,3 +246,5 @@ body{
     
    }
 }
+
+    
