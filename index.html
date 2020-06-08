@@ -79,83 +79,546 @@
   <body>
     <div class="warpper">
       <section class="zoom">
-        <a href="#about-me" class="image-active">
-          <img src="/img/mountain1.png" alt="" id="layer1"
-        /></a>
+        <img src="/img/mountain1.png" alt="" id="layer1" />
         <img src="/img/mountain2.png" alt="" id="layer2" />
-        <img src="./img/New Project (1).png" alt="" id="text" />
+        <img src="./img/Never Stop Creating.png" alt="" id="text" />
       </section>
-      <section class="content">
-        <div class="block" data-fx="3">
-          <a class="block__title" data-img="img/profile.jpg"></a>
+      <div class="content-wrapper" id="content-wrapper">
+        <div class="about-me-wrapper">
+          <section class="content">
+            <div class="block" data-fx="3">
+              <a class="block__title" data-img="img/profile.jpg"></a>
+            </div>
+            <div class="about-me" id="about-me">
+              <img
+                class="front-profile"
+                src="./img/Screenshot_2020-01-26 Person sleeping icon vector image on VectorStock.jpg"
+                alt=""
+              />
+            </div>
+          </section>
+          <div class="about-me-text" id="about-me-text">
+            <h1>Hello there, I'm <span>Niraj Khatiwada</span></h1>
+            <h2>I'm a web developer.</h2>
+          </div>
         </div>
-        <div class="about-me" id="about-me">
-          <img
-            class="front-profile"
-            src="./img/Screenshot_2020-01-26 Person sleeping icon vector image on VectorStock.jpg"
-            alt=""
-          />
+
+        <div class="skills-wrapper">
+          <div class="my-stack-wrapper">
+            <h2>MY STACK</h2>
+          </div>
+          <section class="skills-grid">
+            <div class="python">
+              <img src="./img/python-django.png" alt="" class="skills" />
+            </div>
+            <div class="drf">
+              <img src="./img/drf.png" alt="" class="skills" />
+            </div>
+            <div class="HTML_CSS_Javascript">
+              <img src="./img/HTML CSS Javascript.jpg" alt="" class="skills" />
+            </div>
+            <div class="react">
+              <img src="./img/React.png" alt="" class="skills" />
+            </div>
+            <div class="sql">
+              <img src="./img//postgres.png" alt="" class="skills" />
+            </div>
+          </section>
         </div>
-      </section>
-
-      <div class="social-links">
-        <a
-          href="https://www.facebook.com/OfficialNicolasCagesFaceOnThings/"
-          class="social"
-          target="_blank"
-          title="Facebook"
-          ><img src="/img/facebook.svg" alt="" id="facebook"
-        /></a>
-        <a
-          href="https://www.instagram.com/_nirajkhatiwada/"
-          target="_blank"
-          class="social"
-          title="Instagram"
-          ><img src="/img/instagram.svg" alt="" id="instagram"
-        /></a>
-        <a
-          href="https://twitter.com/_snorlex"
-          target="_blank"
-          class="social"
-          title="Twitter"
-          ><img src="/img/twitter.svg" alt="" id="twitter"
-        /></a>
-        <a
-          href="mailto:nirazzz.nk@gmail.com"
-          target="_blank"
-          class="social"
-          title="Email Me"
-          ><img src="/img/email.svg" alt="" id="twitter"
-        /></a>
-      </div>
-
-      <div class="year">
-        <section class="skills-cards">
-          <div class="python">
-            <img src="./img/python-django.png" alt="" class="skills" />
+        <div class="projects">
+          <div class="project-text-wrapper">
+            <div class="project-text">
+              <h1>PROJECTS</h1>
+            </div>
           </div>
-          <div class="HTML_CSS_Javascript">
-            <img src="./img/HTML CSS Javascript.jpg" alt="" class="skills" />
+          <div class="grid-wrapper">
+            <div class="grid">
+              <div class="atm onHover">
+                <img src="./img/Pitch.png" alt="" />
+                <div class="see-details">
+                  <button
+                    class="see-details-button"
+                    type="button"
+                    data-toggle="modal"
+                    data-target="#exampleModalPitch"
+                  >
+                    Details
+                  </button>
+                </div>
+              </div>
+              <div class="LMS onHover">
+                <img src="./img/LMS.png" alt="" />
+                <div class="see-details">
+                  <button
+                    class="see-details-button"
+                    type="button"
+                    data-toggle="modal"
+                    data-target="#exampleModalLMS"
+                  >
+                    Details
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="grid2">
+              <div class="tkp onHover">
+                <div class="see-details">
+                  <button
+                    class="see-details-button"
+                    type="button"
+                    data-toggle="modal"
+                    data-target="#exampleModalTKPS"
+                  >
+                    Details
+                  </button>
+                </div>
+              </div>
+              <div class="palette onHover">
+                <div class="palette-inner">
+                  <img src="./img/palette.svg" alt="" />
+                  <div class="see-details">
+                    <button
+                  class="see-details-button"
+                  type="button"
+                  data-toggle="modal"
+                  data-target="#exampleModalColor"
+                >
+                  Details
+                </button>
+                  </div>
+                </div>
+                <h1>Color Palette</h1>
+              </div>
+              <div class="shopem onHover">
+                <img src="./img/shopem.png" alt="" />
+                <div class="see-details">
+                  <button
+                  class="see-details-button"
+                  type="button"
+                  data-toggle="modal"
+                  data-target="#exampleModalShopem"
+                >
+                  Details
+                </button>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="Bootstrap" style="margin-right: 1rem;">
-            <img src="./img/React.png" alt="" class="skills" />
-          </div>
-          <div class="Bootstrap">
-            <img src="./img/Bootstrap.png" alt="" class="skills" />
-          </div>
-          <div class="Material-UI">
-            <img src="./img/material_uipng.png" alt="" class="skills" />
-          </div>
-          <div class="sql">
-            <img src="./img//postgres.png" alt="" class="skills" />
-          </div>
-        </section>
+        </div>
       </div>
     </div>
+    <!-- Pitch -->
+    <div
+      class="modal"
+      id="exampleModalPitch"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-xl modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="modal-header-flex">
+            <h5 class="modal-title" id="exampleModalLabel">
+              ATM Finder and Status Check
+            </h5>
+            <h5>
+              Details on
+              <a href="https://github.com/niraj-khatiwada/Branch-And-ATM-Finder-with-ATM-Status">
+              <img src="./img/github.svg" alt="" class="social-icons">
+              </a>
+            </h5>
+
+          </div>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <h6 class="project-brief">
+              This application helps to find different branches of banks by
+              their location, see total number of ATM's in that particular
+              branch along with their status(i.e. Working or Not Working) as
+              well as different ATM's that are independent of branches with
+              their statuses too.
+              <hr />
+              <p>
+                NOTE: The number of ATM's in a branch and their statuses is
+                arbitrary. These information are only known to banks
+                particularly the ATM status. Nevertheless the project can
+                display if there's someway to have that information. Currently
+                its unknown so its only a mockup.
+              </p>
+            </h6>
+            <div class="techstack-grid">
+              <div class="frontend">
+                <h6 class="list-title">Frontend</h6>
+                <ul class="list-group list-group-flush">
+                  <li>HTML, CSS, JavaScript</li>
+                  <li>React</li>
+                  <li>Material UI for React</li>
+                  <li>Framer Motion for Animation</li>
+                </ul>
+              </div>
+              <div class="backend">
+                <h6 class="list-title">Backend</h6>
+                <ul class="list-group list-group-flush">
+                  <li>Python/Django</li>
+                  <li>Django REST Framework</li>
+                  <li>PostgreSQL</li>
+                </ul>
+              </div>
+              <div class="others">
+                <h6 class="list-title">Others</h6>
+                <ul class="list-group list-group-flush">
+                  <li>Redux for state management</li>
+                  <li>Leaflet.js for displaying map and location</li>
+                  <li><a href="https://nominatim.org/release-docs/develop/">Nominatim</a> API</li>
+                  <li><a href="https://www.openstreetmap.org/">OpenStreet</a> Map</li>
+                  <li>Heroku for hosting</li>
+              </div>
+            </div>
+            <div class="details">
+              <h6 class="project-brief text-center"><a href="https://pitch-version1.herokuapp.com/">Demo Website</a></h6>
+              <h6>Home</h6>
+              <img src="https://github.com/niraj-khatiwada/Branch-And-ATM-Finder-with-ATM-Status/raw/master/gitImages/home.png" class="w-100 mb-4"/>
+
+              <h6>Search</h6>
+             <p>Search through bank name, branch name or ATM</p> 
+            <img src="https://github.com/niraj-khatiwada/Branch-And-ATM-Finder-with-ATM-Status/raw/master/gitImages/search.png"class="w-100 mb-4"/>
+
+            <h6>Info
+            </h6>
+            <p> After selecting a searches item it will display all the information related to it.
+
+            If its a branch it will display info about branch and its address and display it in the map. Additionally it will show number of ATM's in that branch and their statuses. And at last its parent bank and its info. </p>
+            <img src="https://github.com/niraj-khatiwada/Branch-And-ATM-Finder-with-ATM-Status/raw/master/gitImages/snackbar.png" class="w-100 mb-4"/>
+
+            <p>If its an ATM it will display like this.</p>
+            <img src='https://github.com/niraj-khatiwada/Branch-And-ATM-Finder-with-ATM-Status/raw/master/gitImages/atm.png' class="w-100 mb-4"/>
+
+            <p>If all of the ATM's of a particular branch or branch independent ATM is down, it will show the next nearest running ATM from tha place.</p>
+            <img src="https://github.com/niraj-khatiwada/Branch-And-ATM-Finder-with-ATM-Status/raw/master/gitImages/atm.png" class="w-100 mb-4"/>
+
+            <p>Additionally if you like to know info about all of the branch or ATM's and filter precisely you can toggle See ALl at the right top.</p>
+            <img src="https://github.com/niraj-khatiwada/Branch-And-ATM-Finder-with-ATM-Status/raw/master/gitImages/seeall.png" class="w-100 mb-4"/>
+            </div>
+           
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- LMS -->
+    <div
+    class="modal"
+    id="exampleModalLMS"
+    tabindex="-1"
+    role="dialog"
+    aria-labelledby="exampleModalLabel"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog modal-xl modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <div class="modal-header-flex">
+            <h5 class="modal-title" id="exampleModalLabel">
+              Learning Management System
+            </h5>
+            <h5>
+              Details on
+              <a href="https://github.com/niraj-khatiwada/Learning-Management-System">
+              <img src="./img/github.svg" alt="" class="social-icons">
+              </a>
+            </h5>
+          </div>
+         
+          <button
+            type="button"
+            class="close"
+            data-dismiss="modal"
+            aria-label="Close"
+          >
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <h6 class="project-brief">
+            Consists of 3 types of users, Manager, Teachers and Students. Manager is created by admin and Teachers and Students can only be added by Manager. When new teacher or student is added by manager, they will receive an email to change the password and log in to the system.
+          </h6>
+          
+          <div class="techstack-grid">
+            <div class="frontend">
+              <h6 class="list-title">Frontend</h6>
+              <ul class="list-group list-group-flush">
+                <li>HTML, CSS, Javascript</li>
+                <li>Bootstrap</li>
+              </ul>
+            </div>
+            <div class="backend">
+              <h6 class="list-title">Backend</h6>
+              <ul class="list-group list-group-flush">
+                <li>Python/Django</li>
+                <li>PostgreSQL</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="screenshot text-center">
+            <h6 class="project-brief">
+              Screenshot
+            </h6>
+            <h6> Uses custom user model so only requires email to register and login.</h6>
+          <img src="https://github.com/niraj-khatiwada/Learning-Management-System/raw/master/gitImages/login.png" class="w-100 mb-4"/>
+
+
+        <h6> Add Teacher and Students from manager account </h6> 
+        <img src="https://github.com/niraj-khatiwada/Learning-Management-System/raw/master/gitImages/add_teachers.png" class="w-100 mb-4"/>
+        <img src="https://github.com/niraj-khatiwada/Learning-Management-System/raw/master/gitImages/add_teachers.png"/>
+        <h6>Teacher Dashboard </h6>
+        <img src="https://github.com/niraj-khatiwada/Learning-Management-System/raw/master/gitImages/add_teachers.png" class="w-100 mb-4"/>
+        <h6> Class creation </h6>
+        <img src="https://github.com/niraj-khatiwada/Learning-Management-System/raw/master/gitImages/create_class.png" class="w-100 mb-4"/>
+        <h6> Add Assignments </h6>
+        <img src="https://github.com/niraj-khatiwada/Learning-Management-System/raw/master/gitImages/create_assignments.png" class="w-100 mb-4"/>
+
+        <h6> Student dashboard</h6>
+        <p>Students search through the class and send request to join the class. Teacher verifies that the student sending request is registered for the class.</p>
+        <img src="https://github.com/niraj-khatiwada/Learning-Management-System/raw/master/gitImages/student_dashboard.png" class="w-100 mb-4"/>
+        <span>...</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!-- The Kathmandu Post Scrape -->
+    <div
+      class="modal"
+      id="exampleModalTKPS"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-xl modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="modal-header-flex">
+              <h5 class="modal-title" id="exampleModalLabel">
+                Web Scraping 'The Kathmandu Post'
+              </h5>
+              <h5>
+                Details on
+                <a href="https://github.com/niraj-khatiwada/The-Kathmandu-Post-Scrape">
+                <img src="./img/github.svg" alt="" class="social-icons">
+                </a>
+              </h5>
+            </div>
+           
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body text-center">
+            <h6 class="project-brief">
+              Scrapes the The Kathmandu Post news portal and displays without
+              Ads.
+            </h6>
+            <div class="techstack-grid">
+              <div class="frontend">
+                <h6 class="list-title">Frontend</h6>
+                <ul class="list-group list-group-flush">
+                  <li>HTML, CSS, Javascript</li>
+                  <li>Bootstrap</li>
+                </ul>
+              </div>
+              <div class="backend">
+                <h6 class="list-title">Backend</h6>
+                <ul class="list-group list-group-flush">
+                  <li>Python/Django</li>
+                  <li>Scrapy</li>
+                  <li>Selenium</li>
+                  <li>PostgreSQL</li>
+                </ul>
+              </div>
+            </div>
+            
+            <div class="screenshot">
+              <h6 class="project-brief">
+                Screenshot
+              </h6>
+              <img src="./img/scrape.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Color Palette -->
+    <div
+      class="modal"
+      id="exampleModalColor"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-xl modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="modal-header-flex">
+              <h5 class="modal-title" id="exampleModalLabel">
+                Color Palette React App 
+              </h5>
+              <h5>
+                Details on
+                <a href="https://github.com/niraj-khatiwada/Color-Palette-React">
+                <img src="./img/github.svg" alt="" class="social-icons">
+                </a>
+              </h5>
+            </div>
+           
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body text-center">
+            <h6 class="project-brief">
+              A mockup similar to Flat UI that contains bunch of color palettes, each palette has intensity level from 100-900 that can be changed using slider. Color code that is available in Hex, RGB and RGBA which can be changed through dropdown is available to copy. Each individual color's shades can be viewed through "More" option.
+            </h6>
+            <div class="techstack-grid">
+              <div class="frontend">
+                <h6 class="list-title">Frontend</h6>
+                <ul class="list-group list-group-flush">
+                  <li>HTML, CSS, Javascript</li>
+                  <li>React</li>
+                  <li>Material UI</li>
+                </ul>
+              </div>
+            </div>
+            
+            <div class="screenshot">
+              <h6 class="project-brief">
+                <a href="https://color-palette-react.netlify.app/">
+                Demo Website
+                </a>
+              </h6>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Shopem -->
+    <div
+      class="modal"
+      id="exampleModalShopem"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-xl modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="modal-header-flex">
+              <h5 class="modal-title" id="exampleModalLabel">
+                Ecommerce 
+              </h5>
+              <h5>
+                Details on
+                <a href="https://github.com/niraj-khatiwada/Shopem-Ecommerce">
+                <img src="./img/github.svg" alt="" class="social-icons">
+                </a>
+              </h5>
+            </div>
+           
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body text-center">
+            <h6 class="project-brief">
+              Ecommerce website using React and Redux and Firestore
+            </h6>
+            <div class="techstack-grid">
+              <div class="frontend">
+                <h6 class="list-title">Frontend</h6>
+                <ul class="list-group list-group-flush">
+                  <li>HTML, CSS, Javascript</li>
+                  <li>React</li>
+                  <li>ReactStrap</li>
+                </ul>
+              </div>
+              <div class="backend">
+                <h6 class="list-title">Backend</h6>
+                <ul class="list-group list-group-flush">
+                  <li>Firestore</li>
+                </ul>
+              </div>
+              <div class="others">
+                <h6 class="list-title">Others</h6>
+                <ul class="list-group list-group-flush">
+                  <li>Redux for state management</li>
+                  <li>Google OAuth</li>
+              </div>
+            </div>
+            
+            <div class="screenshot">
+              <h6 class="project-brief">
+                <a href="https://shopem.netlify.app/">
+                Demo Website
+                </a>
+              </h6>
+              <h6 class="project-brief">
+                Screenshot (It's easier to view in the live website.)
+              </h6>
+              <img src="./img/shopem.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
     <script src="/js/text/javascript.js"></script>
     <script src="js/text/charming.min.js"></script>
     <script src="js/text/imagesloaded.pkgd.min.js"></script>
     <script src="js/text/TweenMax.min.js"></script>
     <script src="js/text/demo.js"></script>
+    <!-- Bootstrap -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
