@@ -131,7 +131,7 @@
               <h1>PROJECTS</h1>
             </div>
           </div>
-          <div class="grid-wrapper">
+          <div class="grid-wrapper px-lg-4">
             <div class="grid">
               <div class="atm onHover">
                 <img src="./img/Pitch.png" alt="" />
@@ -173,8 +173,8 @@
                   </button>
                 </div>
               </div>
-              <div class="palette onHover">
-                <div class="palette-inner">
+              <div class="palette onHover d-flex flex-column justify-content-around">
+                <div class="palette-inner d-flex justify-content-center align-items-center">
                   <img src="./img/palette.svg" alt="" />
                   <div class="see-details">
                     <button
@@ -598,6 +598,51 @@
         </div>
       </div>
     </div>
+    <!-- Footer -->
+    <footer>
+      <div class="like-my-work-wrapper">
+      <div class="project-text-wrapper adjust-margin mt-4">
+        <div class="project-text">
+          <h1>Liked my work?</h1>
+        </div>
+      </div>
+      </div>
+      <div class="footer">
+      <div class="social-links">
+        <ul class="social-networks square spin-icon">
+          <li><a href="https://github.com/niraj-khatiwada" class="icon-github">GitHub</a></li>
+          <li><a href="https://twitter.com/_snorlex" class="icon-twitter">Twitter</a></li>
+          <li><a href="https://www.instagram.com/_nirajkhatiwada/" class="icon-instagram">Instagram</a></li>
+          <li><a href="https://www.linkedin.com/in/niraj-khatiwada-043442197/" class="icon-linkedin">LinkedIn</a></li>
+        </ul>
+        
+      </div>
+      <div class="form-footer">
+      <div class="form form-wrapper col-10 offset-1 col-sm-8 offset-sm-2">
+        
+        <form action="https://formspree.io/moqkdggw" method="POST">
+          <div class="name form-group"> 
+          <input type="text" name="name" id="name" class="form-control" placeholder="Your Name">
+        </div>
+         <div class="email form-group">
+          <input type="email" name="_replyto" id='email' class="form-control" placeholder="Your Email">
+         </div>
+         <div class="feedback-text form-group">
+           <textarea id='feedback-text' class="form-control" rows="3" placeholder="Say something..." name='feedback'></textarea>
+         </div>
+         <div class="send-botton-wrapper col-4 offset-4">
+           <button type="submit" class="send-botton">Send</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    </div>
+  </footer>
+    
+    
+    <div class="2020 d-flex justify-content-center bg-dark text-light">
+      <strong>2020</strong>
+    </div>
     
     <script src="/js/text/javascript.js"></script>
     <script src="js/text/charming.min.js"></script>
@@ -605,6 +650,7 @@
     <script src="js/text/TweenMax.min.js"></script>
     <script src="js/text/demo.js"></script>
     <!-- Bootstrap -->
+    
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -620,5 +666,6 @@
       integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
       crossorigin="anonymous"
     ></script>
+    
   </body>
 </html>
