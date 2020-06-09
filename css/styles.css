@@ -419,12 +419,15 @@ body {
 }
 
 @media screen and (max-width: 545px) {
+  .LMS img {
+    width: 200%;
+  }
   .project-text-wrapper {
     margin: 3rem 1rem 1rem 1rem;
   }
   .atm,
   .LMS {
-    height: 23vh;
+    height: 30vh;
     margin-bottom: 1rem;
   }
   .grid,
@@ -562,6 +565,9 @@ footer .like-my-work-wrapper .project-text-wrapper {
 }
 
 @media screen and (max-width: 992px) {
+  .square {
+    transform: scale(0.8);
+  }
   .footer {
     grid-template-columns: 1fr;
   }
@@ -717,5 +723,10 @@ footer .like-my-work-wrapper .project-text-wrapper {
 @media screen and (max-width: 400px) {
   .content-wrapper {
     padding: 0;
+  }
+  .frontend,
+  .backend,
+  .others {
+    padding: 1rem 0 1rem 1rem;
   }
 }
